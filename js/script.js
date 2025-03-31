@@ -6,15 +6,15 @@
 
 "use strict"
 
-function calculateAreaOfTrapizoid () {
+function calculateVolumeOfPyramid () {
   // input
-  const abase = parseInt(document.getElementById('a-base').value);
-  const bbase = parseInt(document.getElementById('b-base').value);
-  const height = parseInt(document.getElementById('height').value);
+  const length = parseFloat(document.getElementById('length').value);
+  const width = parseFloat(document.getElementById('width').value);
+  const height = parseFloat(document.getElementById('height').value);
 
   // process
-  const areaOfTrapizoid = [(abase + bbase) / 2] * height
+  const volumeOfPyramid = [(abase + bbase) / 2] * height
 
   // output
-  document.getElementById('area').innerHTML = 'Area is: ' + areaOfTrapizoid + ' mm²'
+  document.getElementById('area').innerHTML = 'Volume is: ' + areaOfTrapizoid + ' mm²'
 }
