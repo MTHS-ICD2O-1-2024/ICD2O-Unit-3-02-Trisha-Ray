@@ -13,8 +13,8 @@ function calculateVolumeOfPyramid () {
   const height = parseFloat(document.getElementById('height').value);
 
   // process
-  const volumeOfPyramid = [(abase + bbase) / 2] * height
+  const volumeOfPyramid =  (length * width * height) / 3
 
   // output
-  document.getElementById('area').innerHTML = 'Volume is: ' + areaOfTrapizoid + ' mm²'
+  document.getElementById('area').innerHTML = 'Volume is: ' + areaOfPyramid + ' mm³'
 }
